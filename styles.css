@@ -1,0 +1,66 @@
+body { 
+    background-color: black;
+} 
+nav {
+     display: flex;  
+     justify-content: space-between; 
+     color:white;  
+     margin-left: 30px; 
+     font-size: 26px;
+} 
+nav h1{ 
+    font-size: 40px;  
+    color: rgba(250,10,10,0.801);
+    border-bottom: 5px solid rgba(250,10,10,0.801); 
+    border-radius:40px
+} 
+ul{ 
+display: flex;
+ }
+  ul li{ 
+    list-style: none; 
+    margin-inline: 30px;
+  } 
+  .btn button{ 
+    width: 100px; 
+    height: 36px;
+     border: 3px solid rgba(250,10,10,0.801); 
+     background-color: black; 
+     color: white; 
+     font-size: 13px; 
+     border-radius: 20px; 
+     margin-top: 20px; 
+     margin-right: 20px;
+  } 
+  .main-div{
+display: flex; 
+justify-content: space-between;   
+color:white; 
+margin-top: 30px;
+  } 
+  .main-div .head{
+     font-size: 31px;  
+     margin-left: 30px;
+  }  
+  .head button{ 
+    width: 140px; 
+    height: 40px; 
+    background-color: rgb(255, 70, 3); 
+    color: white; 
+    border-radius: 5px; 
+    font-size: 25px;
+  } 
+  .head button{ 
+    background-color: orange; 
+    border: 30x solid rgba(250,10,10,0.801); 
+    cursor: pointer;
+  }
+  img{
+    margin-right: 30px;  
+    width: 530px;
+  } 
+container { 
+width: 80%;
+ margin: 50px auto;
+  }
+  
